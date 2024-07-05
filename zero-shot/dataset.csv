@@ -1,0 +1,55 @@
+Ref,Tar,severity,error_span,error_cat
+A cat sat on a mat.,A mat sat on a cat.,major,"""mat sat on a cat""",Unnatural
+The mother sang a lullaby to the sleepy cat,The chair sang a lullaby to the sleepy cat,major,"""chair""",Unnatural
+Break a leg,Break one of your legs,major,"""one of your legs""","Mistranslation, Addition"
+Please make yourself at home,Please create your home,major,"""create your home""",Mistranslation
+The software is buggy,The software has insects,major,"""software has insects""",Mistranslation
+"Although it was raining, she went for a walk","Although it is raining, she went for a walk",major,"""it is raining, she went for a walk""",Grammatical error 
+I found the buyer with the wrong order.,I found the buyer of the wrong order before,major,"""of the wrong order before""",Grammatical error 
+They have been studying French for three years,They has been studying French for three years,major,"""they has been""",Grammatical error 
+She will arrive at the airport at noon tomorrow,She will arrive at the airport at noon,minor,"""tomorrow""",Ommision
+We have completed the project ahead of schedule,We have completed the project ahead and after the schedule,major,"""and after the schedule""","Addition,Ommision"
+She woke up early to catch the train,She waked up early to catch the train,major,"""waked up""",Spelling & Typological
+He wanted to go home but it was already too late,"He wanted to go home, but it was already too late.",major,"""home,""",Punctuation
+The Statue of Liberty stands proudly in New York Harbor,The Statue of Swatantrata stands proudly in New York Harbor,major,"""Statue of Swatantrata""",NE error
+The book was interesting because it had a compelling storyline,The book was interesting. It was interesting because it had a compelling storyline,minor,'It was interesting'',Repetition
+My exam result has come,My pariksha result has come,major,"""pariksha""",Inconsistency
+"It’s so horrible, and I will cancel the order if it doesn’t arrive in 30 minutes!","It's so horrible, please cancel the order in less than 30 minutes!",major,"""less than""",Ommisions
+It has been 1 hour and it still has not been delivered yet.,"It's been an hour, and it hasn't arrived yet",major,"""an"",""arrived""","Grammatical error,Incorrect word choice"
+"Then I will use my points to re-place the order, thank you.",Then I'll re order with points. Thank you,minor,"""re order""",Mistranslation
+"If you cannot change the location of the branch store for me, can I change it to delivery?","If you can't change the location of the branch for me, can you change it to delivery?","minor,minor","""change the location of the branch"",""change it to deliver""",Inconsistency
+I’ve waited so long for you.,Waiting for you so long,minor,"""waiting""",Grammatical error
+The man drove the car.,The car drove the man.,major,"""car drove the man""",Unnatural
+She wore a beautiful dress to the party.,She wore a delicious dress to the party.,major,"""delicious""",Incorrect word choice
+He attended an interesting lecture on ancient history.,He attended an entertaining lecture on ancient history.,major,"""entertaining""",Incorrect word choice
+The chef prepared a delicate sauce for the dish.,The chef prepared a sensitive sauce for the dish.,major,"""sensitive""",Incorrect word choice
+She was very sympathetic to her friend's situation.,She was very sympathetic to her friend's situation.,major,"""sympathetic""",Incorrect word choice
+Yesterday I went to the store.,Yesterday to the store I went.,major,"""to the store I went""",Contextual Error
+The artist created a stunning piece of artwork.,The artist created a brutal piece of artwork.,major,"""brutal""",Incorrect word choice
+Are you sure the food was freshly cooked and not from before?,"Are you sure it's freshly cooked food, not old?",major,"""old""",Incorrect word choice
+Ram killed Ravana,Ram murdered Ravana,major,"""murdered""",Incorrect word choice
+"Hi, the Poached Chicken with Chili Sauce delivered from the restaurant is raw.","Hello, the saliva chicken from the restaurant is raw",major,"""saliva chicken""",Incorrect word choice
+The Summer Palace of Tipu Sultan was a serene retreat,The garmi Palace of Tipu Sultan was a serene retreat,major,"""garmi Palace""",NE error
+Please switch on Discovery channel,Please switch on invent channel,major,"""invent channel""",NE error
+The weather today is perfect for a picnic,The weather today is optimal for a picnic.,minor,"""optimal""",Incorrect word choice
+She quickly adapted to her new environment.,She fastly adapted to her new environment.,major,"""fastly""",Unnatural
+The meeting was postponed to next Monday.,The meeting was deferred to next Monday.,minor,"""deferred""",Incorrect word choice
+The cat sat comfortably on the windowsill.,The cat sat complacently on the windowsill.,major,"""complacently""",Incorrect word choice
+She always enjoys reading a good book.,She always enjoys perusing a good book.,minor,"""perusing""",Unnatural
+Paris is the capital city of France.,London is the capital city of France.,major,"""London""",NE Error
+"The event will take place on July 15th, 2024.",The event will take place on July 2024.,minor,"""15th""",Omission
+Mount Everest is the highest mountain in the world.,Mount Everest is the highest mountain in Asia.,major,"""Asia""",NE Error
+"She bought apples, oranges, and bananas from the market.","She bought apples, oranges, bananas, and grapes from the market.",minor,"""grapes""",Addition
+Albert Einstein was a renowned physicist born in Germany.,Albert Einstein was a renowned physicist born in France.,major,"""France""",NE Error
+"The Grand Canyon is located in Arizona, USA.","The Grand Canyon is located in Nevada, USA.",major,"""Nevada""",NE Error
+The company's revenue increased by 20% last year.,The company's revenue increased by 25% last year.,minor,"""25%""",Incorrect word choice
+She loves to read historical novels.,She loves to read historical and romantic novels.,minor,"""and romantic""",Addition
+The presentation will begin at 10:00 AM sharp.,The presentation will begin at 10:00 sharp.,minor,"""AM""",Omission
+Leonardo da Vinci painted the Mona Lisa.,Leonardo da Vinci painted the Starry Night.,major,"""Starry Night""",NE Error
+She quickly adapted to her new environment.,She fastly adapted to her new environment.,major,"""fastly""",Unnatural
+The Amazon rainforest is known for its biodiversity.,The Amazon rainforest is known for its biodiversity and economic value.,minor,"""and economic value""",Addition
+She has been working at the company for five years.,She has been working at the company since five years.,major,"""since""",Grammatical error
+He drove the car quickly.,Quickly the car he drove.,major,"""quickly the car'",Contextual Error
+The park is beautiful.,The park beautiful is.,major,"""beautiful is""",Contextual Error
+She always drinks coffee in the morning.,In the morning she always drinks coffee.,major,"""In the morning""",Contextual Error
+She went to the party with her friends.,With her friends went she to the party.,major,"""went she to the party""",Contextual Error
